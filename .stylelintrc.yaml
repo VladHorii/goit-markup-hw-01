@@ -10,11 +10,11 @@ rules:
   unit-no-unknown: true
   property-no-unknown: true
   declaration-block-no-duplicate-properties: true
-  comment-empty-line-before:
-    - always
-    - ignore:
-        - stylelint-commands
-        - after-comment
+  # comment-empty-line-before:
+  #   - always
+  #   - ignore:
+  #       - stylelint-commands
+  #       - after-comment
   declaration-colon-space-after: always
   declaration-no-important: true
   indentation:
@@ -22,9 +22,9 @@ rules:
     - ignore:
         - inside-parens
   max-empty-lines: 2
-  rule-empty-line-before:
-    - always
-    - except:
-        - first-nested
-      ignore:
-        - after-comment
+  # rule-empty-line-before:
+  #   - always
+  #   - except:
+  #       - first-nested
+  #     ignore:
+  #       - after-comment
